@@ -1,0 +1,39 @@
+{
+	"name": "Leap-Rolling-Spider",
+	"description": "LeapMotion controlled Rolling Spider drone",
+	"version": "0.1.0",
+	"main" : "index.js",
+	"dependencies": {
+		"cylon" : "",
+		"cylon-firmata" : "",
+		"cylon-ble" : "",
+		"cylon-gpio" : "",
+		"cylon-leapmotion" : "",
+		"cylon-api-socketio" : "",
+		"cylon-pebble" : "",
+		"cylon-api-http" : "",
+		"rolling-spider" : "",
+		"temporal" : "",
+		"cylon-rolling-spider" : "",
+		"cylon-joystick" : ""
+	},
+	"files": [
+		"LICENSE",
+		"README.md"
+	],
+	"engines": {
+		"node": ">= 0.10.0"
+	},
+	"contributors": [
+		"rlyle78@gmail.com"
+	],
+	"license": "MIT",
+
+	"scripts": {
+		"start": "node index.js"
+	},
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/rlyle78/Leap-Rolling-Spider.git"
+    }
+}
