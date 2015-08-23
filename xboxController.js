@@ -11,7 +11,7 @@ Cylon.robot({
   devices: {
     /*drone: {driver: 'rolling-spider'},*/
     controller: { driver: 'xbox-360' }
-    
+  
   },
 
   work: function(my) {
